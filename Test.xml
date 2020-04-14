@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><vehicle data_version="2" is_advanced="true" is_static="false" bodies_id="135"><editor_placement_offset x="-17" y="-4.5" z="11.694333"/><authors/><bodies><body unique_id="134"><initial_local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><components><c d="transponder_locator" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" sensitivity="0.2" timer_scalar_1="0.183" timer_scalar_2="0.183" lss_mode="0" func_type="0" property_text=""><vp x="0" y="1" z="0"/><logic_slots><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/><slot value="0"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/><slot value="0"/><slot value="0"/><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value/></slot><slot><value/></slot></logic_slots><property_output_float_val text="0" value="0"/><min_threshold text="0" value="0"/><max_threshold text="0" value="0"/><pid_controller_ki text="1" value="1"/><pid_controller_kp text="1" value="1"/><pid_controller_kd text="1" value="1"/><exp text="2" value="2"/><min_lever_value text="-1" value="-1"/><max_lever_value text="1" value="1"/><starting_lever_value text="0" value="0"/></o></c><c d="battery_medium" t="0"><o r="-1,0,0,0,0,-1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6" custom_name="" default_state="false"><vp x="0" y="1" z="-1"/><logic_slots><slot value="0"/><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="monitor_5" t="0"><o r="0,0,-1,0,1,0,1,0,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="31" custom_name=""><vp x="0" y="1" z="3"/><logic_slots><slot><value/></slot><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot value="false"/></logic_slots></o></c><c d="01_block" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="1" y="1" z="0"/></o></c><c d="01_block" t="0"><o r="-1,0,0,0,-1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="1" y="0" z="5"/></o></c><c d="gps_sensor" t="0"><o r="0,-1,0,1,0,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="2" custom_name="" sensitivity="0.2" timer_scalar_1="0.183" timer_scalar_2="0.183" lss_mode="0" func_type="0" property_text=""><vp x="2" y="1" z="0"/><logic_slots><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/><slot value="0"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/><slot value="0"/><slot value="0"/><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value/></slot><slot><value/></slot></logic_slots><property_output_float_val text="0" value="0"/><min_threshold text="0" value="0"/><max_threshold text="0" value="0"/><pid_controller_ki text="1" value="1"/><pid_controller_kp text="1" value="1"/><pid_controller_kd text="1" value="1"/><exp text="2" value="2"/><min_lever_value text="-1" value="-1"/><max_lever_value text="1" value="1"/><starting_lever_value text="0" value="0"/></o></c><c d="01_block" t="0"><o r="0,0,-1,1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="2" y="1" z="2"/></o></c><c d="01_block" t="0"><o r="0,0,-1,1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="2" y="1" z="3"/></o></c><c d="digital_display" t="0"><o r="0,-1,0,-1,0,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="8" custom_name="" decimal_point_pos="3" audio="audio/fx3/stormworks_warningalarm.ogg" volume="1" pitch="1" is_infrared="false"><vp x="2" y="2" z="3"/><logic_slots><slot value="0"/><slot value="0"/><slot value="false"/></logic_slots><min_value text="-1.0" value="-1"/><max_value text="1.0" value="1"/></o></c><c d="digital_display" t="0"><o r="0,-1,0,-1,0,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="8" custom_name="" decimal_point_pos="3" audio="audio/fx3/stormworks_warningalarm.ogg" volume="1" pitch="1" is_infrared="false"><vp x="2" y="3" z="3"/><logic_slots><slot value="0"/><slot value="0"/><slot value="false"/></logic_slots><min_value text="-1.0" value="-1"/><max_value text="1.0" value="1"/></o></c><c d="button_push" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" hold_duration="1" default_state="false" sensitivity="1" val_1_name="" val_2_name=""><vp x="-2" y="1" z="4"/><logic_slots><slot value="false"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/></logic_slots><min_lever_value text="0" value="0"/><max_lever_value text="1" value="1"/><starting_lever_value text="0" value="0"/></o></c><c d="indicator" t="0"><o r="0,0,-1,0,1,0,1,0,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" decimal_point_pos="3" audio="audio/fx3/stormworks_warningalarm.ogg" volume="1" pitch="1" is_infrared="false"><vp x="-1" y="1" z="0"/><logic_slots><slot value="0"/><slot value="0"/><slot value="false"/></logic_slots><min_value text="-1.0" value="-1"/><max_value text="1.0" value="1"/></o></c><c d="microprocessor" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="14" custom_name=""><microprocessor_definition name="Microcontroller" description="No description set." hide_in_inventory="false" width="3" length="1" id_counter="15" id_counter_node="3" transform_index="0" sym0="0" sym1="0" sym2="0" sym3="0" sym4="0" sym5="0" sym6="0" sym7="0" sym8="0" sym9="0" sym10="0" sym11="0" sym12="0" sym13="0" sym14="0" sym15="0"><nodes><n id="1" component_id="1" built_slot_index="0"><node label="Input" mode="1" type="0" description="The input signal to be processed." flags="0"><position x="0" y="0" z="0"/></node></n><n id="2" component_id="6" built_slot_index="0"><node label="Input" mode="0" type="6" description="The input signal to be processed." flags="0"><position x="1" y="0" z="0"/></node></n><n id="3" component_id="15" built_slot_index="0"><node label="Reset" mode="1" type="0" description="The input signal to be processed." flags="0"><position x="2" y="0" z="0"/></node></n></nodes><group id="0"><pos x="0" y="0"/><data type="0" name="" desc=""><inputs/><outputs/></data><components><c type="56"><object id="2" script="t=0
+i=0
+tB = 0
+tA = {}
+SUM = 0
+AVG = 0
+
+
+function onTick()
+Beep = input.getBool(1)
+Reset = input.getBool(2)
+
+if Reset then 
+	t=0
+	i=0
+	tB = 0
+	tA = {}
+	SUM = 0
+	AVG = 0
+end
+
+t = t+1
+
+if Beep then i = i+1 end
+
+if Beep then tB = t end
+
+tA[i] = tB
+
+
+end
+
+
+
+function onDraw()
+
+for i=1,16,1 do
+	screen.drawText(0,(i-1)*6, tA[i])
+end
+for i=16,32,1 do
+	screen.drawText(20,(i-17)*6, tA[i])
+end
+for i=32,48,1 do
+	screen.drawText(40,(i-33)*6, tA[i])
+end
+
+
+if i &gt; 48 then
+SUM = 0
+for i=2,48,1 do 
+	SUM = SUM + (tA[i] - tA[i-1])
+end
+AVG = SUM/48
+screen.drawText(70,20,AVG)
+end
+
+
+end"><pos x="0" y="0.75"/><in1 component_id="7" node_index="0"/><in2 component_id="0" node_index="0"/><out1/><out2/></object></c><c type="41"><object id="7" count="2" offset="0"><pos x="-1.5" y="0.5"/><inc component_id="0" node_index="0"/><in1 component_id="12" node_index="0"/><in2 component_id="15" node_index="0"/><out1/></object></c><c type="48"><object id="12" m="1"><pos x="-3" y="0.75"/><in1 component_id="1" node_index="0"/><out1/></object></c></components><components_bridge><c type="0"><object id="1"><pos x="-4.5" y="0.75"/><in1 component_id="0" node_index="0"/><out1/></object></c><c type="7"><object id="6"><pos x="1.5" y="0.75"/><in1 component_id="2" node_index="1"/><out1/></object></c><c type="0"><object id="15"><pos x="-3" y="0.25"/><in1 component_id="0" node_index="0"/><out1/></object></c></components_bridge><groups/></group></microprocessor_definition><vp x="-2" y="1" z="1"/><logic_slots><slot value="false"/><slot value="false"/><slot><value/></slot></logic_slots></o></c><c d="button_toggle" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" hold_duration="1" default_state="false" sensitivity="1" val_1_name="" val_2_name=""><vp x="-2" y="1" z="5"/><logic_slots><slot value="false"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/></logic_slots><min_lever_value text="0" value="0"/><max_lever_value text="1" value="1"/><starting_lever_value text="0" value="0"/></o></c><c d="01_block" t="0"><o r="-1,0,0,0,-1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-2" y="0" z="5"/></o></c></components></body></bodies><logic_node_links><logic_node_link type="4"><voxel_pos_0 x="0" y="1" z="3"/><voxel_pos_1 x="0" y="1" z="0"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="0" y="1" z="0"/><voxel_pos_1 x="0" y="0" z="-2"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="2" y="1" z="0"/><voxel_pos_1 x="0" y="1" z="0"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="2" y="1" z="0"/><voxel_pos_1 x="2" y="2" z="3"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="2" y="2" z="3"/><voxel_pos_1 x="2" y="3" z="3"/></logic_node_link><logic_node_link type="1"><voxel_pos_0 x="2" y="1" z="1"/><voxel_pos_1 x="2" y="2" z="3"/></logic_node_link><logic_node_link type="1"><voxel_pos_0 x="2" y="1" z="0"/><voxel_pos_1 x="2" y="3" z="3"/></logic_node_link><logic_node_link type="0"><voxel_pos_0 x="0" y="2" z="0"/><voxel_pos_1 x="-1" y="1" z="0"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="0" y="1" z="0"/><voxel_pos_1 x="-1" y="1" z="0"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="0" y="1" z="3"/><voxel_pos_1 x="-2" y="1" z="4"/></logic_node_link><logic_node_link type="0"><voxel_pos_0 x="0" y="2" z="0"/><voxel_pos_1 x="-2" y="1" z="1"/></logic_node_link><logic_node_link type="6"><voxel_pos_0 x="-2" y="1" z="2"/><voxel_pos_1 x="0" y="1" z="3"/></logic_node_link><logic_node_link type="0"><voxel_pos_0 x="-2" y="1" z="4"/><voxel_pos_1 x="-2" y="1" z="3"/></logic_node_link><logic_node_link type="0"><voxel_pos_0 x="-2" y="1" z="5"/><voxel_pos_1 x="0" y="1" z="3"/></logic_node_link><logic_node_link type="0"><voxel_pos_0 x="-2" y="1" z="5"/><voxel_pos_1 x="0" y="1" z="0"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-2" y="1" z="5"/><voxel_pos_1 x="-2" y="1" z="4"/></logic_node_link></logic_node_links></vehicle>
